@@ -1,0 +1,257 @@
+1. Qual a interpretação que será aplicada no processo de autorização em relação ao inciso IX do § 1º do art. 7º da Lei nº 14.790, de 2023, que exige que a pessoa jurídica requerente tenha brasileiro como sócio detentor de ao menos 20% (vinte por cento) de seu capital social?
+A exigência constante do inciso IX do § 1º do art. 7º da Lei nº 14.790, de 2023, de ter brasileiro como sócio detentor de ao menos 20% do capital social da pessoa jurídica requerente, pode ser cumprida tanto pela participação de pessoas naturais brasileiras, quanto pela de pessoas jurídicas brasileiras. Por pessoa jurídica brasileira, entende-se a pessoa jurídica constituída sob as leis brasileiras e que tenha sua sede e administração no País.
+
+2. Todas as empresas que apresentarem o requerimento de autorização no prazo de 90 dias, contado da publicação da Portaria SPA/MF nº 827, de 22 de maio de 2024, se autorizadas, começarão a operar no dia 01/01/2025?
+As autorizações deferidas com base na hipótese prevista no art. 23 da Portaria SPA/MF nº 827, de 22 de maio de 2024, serão publicadas até 31 de dezembro de 2024. A partir da data de publicação das autorizações, as pessoas jurídicas autorizadas poderão entrar em operação.
+
+3. Quanto tempo levará para a empresa receber a resposta sobre a sua aplicação de licença?
+Em relação aos prazos de análise pela SPA/MF, existem duas possibilidades: 
+
+- Regime geral: notificação em até 150 dias, contados da data de protocolo do requerimento de autorização, nos termos do art. 16 da Portaria SPA/MF nº 827, de 2024; ou 
+
+- Regime de transição: notificação em até 180 dias, contados da data de publicação da Portaria SPA/MF nº 827, de 2024, nos termos do art. 23. O regime de transição somente se aplica às pessoas jurídicas que apresentarem o requerimento de autorização nos primeiros 90 dias após a publicação da Portaria. 
+
+4. O prazo de 90 dias para solicitar a autorização é direcionado às empresas que estavam ativas na data de publicação da Lei nº 14.790, de 29 de dezembro de 2023?
+O prazo de 90 dias para apresentação do requerimento de autorização, previsto no art. 23 da Portaria SPA/MF nº 827, de 22 de maio de 2024, se aplica a qualquer pessoa jurídica interessada na obtenção da outorga, não apenas àquelas que já estavam em atividade no momento da publicação da Lei nº 14.790, de 2023. Por sua vez, os requerimentos de autorização podem ser apresentados a qualquer momento, mesmo após o prazo de 90 dias estabelecido no art. 23, hipótese na qual o prazo de análise será de até 150 dias, contado da data de protocolo do requerimento de autorização, nos termos do art. 16 da referida Portaria.
+
+5. Os termos do requerimento de autorização podem ser aditados? Nesse caso, qual é a data para fins de contagem de prazo, a constante do requerimento original ou a data do aditamento? Se o aditamento ocorrer após 90 dias, a autorização pode não ocorrer até 31/12/2024?
+Sim, o pedido pode ser aditado. Para fins de contagem dos prazos de autorização estabelecidos na Portaria SPA/MF nº 827, de 22 de maio de 2024, será considerada como data de protocolo a data de aditamento. Assim, a possibilidade de deferimento da autorização até 31 de dezembro de 2024, nos termos do art. 23, aplica-se somente aos requerimentos protocolados e que forem aditados nos primeiros 90 dias após a publicação da Portaria. 
+
+6. O serviço de atendimento ao cliente no Brasil poderá ser terceirizado?
+Sim, observada a necessidade de designação pelo agente operador de diretor responsável pelo serviço de atendimento aos apostadores, nos termos do inciso V do art. 7º da Lei nº 14.790, de 2023. 
+
+7. O agente operador poderá solicitar o registro de domínios “bet.br” semelhantes ao da sua marca comercial visando redirecionar clientes que por engano errem o endereço de seu site?
+Não, somente as marcas comerciais exploradas pelas pessoas jurídicas autorizadas poderão adotar o domínio “bet.br”. 
+
+8. Os diretores da pessoa jurídica requerente precisam ser estatutários? Ou podem ser empregados contratados com o cargo de diretor?
+Os diretores devem ser estatutários devidamente nomeados nos atos societários da pessoa jurídica requerente. Conforme disposto no art. 2º da Portaria SPA/MF nº 827, de 2024, são considerados administradores os ocupantes dos cargos de direção e os membros do conselho de administração, se houver. Desse modo, pressupõe-se que as responsabilidades inerentes aos diretores sejam equivalentes às dos membros dos órgãos estatutários. 
+
+9. Os profissionais responsáveis pelas áreas descritas no artigo 8º, §2º, da Portaria SPA/MF nº 827, de 2024, podem ser terceirizados? Esses profissionais precisam ser brasileiros?
+Esses profissionais não podem ser terceirizados. Observar que devem ser designados administradores estatutários responsáveis pelas áreas “contábil e financeira”, “integridade e compliance”, “atendimento aos apostadores e ouvidoria” e “relacionamento com o Ministério da Fazenda”. Ademais, não é necessário que esses profissionais sejam brasileiros, desde que cumpram todas as exigências legais para o exercício de atividade profissional remunerada no País. 
+
+10. Os profissionais responsáveis pelas áreas descritas no artigo 8º, §2º, da Portaria SPA/MF nº 827, de 2024, podem ser não residentes no Brasil com procurador no País?
+Os administradores estatutários responsáveis pelas áreas “contábil e financeira”, “integridade e compliance”, “atendimento aos apostadores e ouvidoria” e “relacionamento com o Ministério da Fazenda” deverão ter domicílio no Brasil.
+
+11. As Juntas Comerciais do País estão orientadas a aceitar o CNAE 9200-3/99? Como as pessoas jurídicas requerentes devem proceder para obter seu registro nas Juntas Comerciais?
+Por solicitação da SPA/MF, o Departamento Nacional de Registro Empresarial e Integração – DREI, vinculado ao Ministério do Desenvolvimento, Indústria, Comércio e Serviços, encaminhou ofício-circular a todas as juntas comerciais do País com orientações sobre o assunto.  
+
+As Juntas Comerciais estão orientadas a não aceitarem o registro de pessoas jurídicas cujo objeto social seja genérico, sendo vedada a utilização do termo “apostas ou atividades não especificadas anteriormente”. Assim, no instrumento a ser apresentado para registro e arquivamento, deverão constar o CNAE 9200-3/99 e conter, na descrição do objeto social principal, o termo “Exploração de Apostas de Quota Fixa”. 
+
+12. Em conjunto com o requerimento de autorização, deverão ser apresentadas as políticas mencionadas no inciso II do caput do art. 12 da Portaria SPA/MF nº 827, de 2024, ou a declaração constante de seu Anexo IX?
+Em conjunto com o requerimento de autorização, deverá ser apresentada a declaração constante do Anexo IX da Portaria SPA/MF nº 827, de 2024, que pressupõe a existência das políticas de que trata o inciso II do caput do art. 12. Conforme dispõe o § 2º desse artigo, a pessoa jurídica requerente deverá manter à disposição da SPA/MF as políticas que comprovem a referida declaração.
+
+13. Em que ordem serão analisados os requerimentos de autorização apresentados à SPA/MF?
+Por força do regramento estabelecido pelo § 2º do art. 10 da Lei nº 14.790, de 29 de dezembro de 2023, a análise dos requerimentos observará a ordem cronológica de seu protocolo no Sistema de Gestão de Apostas - SIGAP. 
+
+14. Caberá recurso administrativo de eventual indeferimento do requerimento de autorização?
+As disposições da Lei nº 9.784, de 29 de janeiro de 1999, aplicam-se, no que couber, ao processo de autorização para exploração comercial da modalidade lotérica de apostas de quota fixa. A possibilidade de recurso administrativo é prevista no art. 20 da Portaria SPA/MF nº 827, de 2024.
+
+15. As declarações exigidas no processo de autorização podem ser submetidas em formato bicolunado (português e inglês)?
+Não, as declarações deverão ser apresentadas em língua portuguesa exclusivamente, conforme modelos anexos à Portaria SPA/MF nº 827, de 2024. 
+
+16. Como proceder caso os documentos exigidos pela Portaria SPA/MF nº 827, de 2024, não possuam equivalentes no exterior?
+Nesse caso, devem ser apresentados os documentos que mais se aproximam dos exigidos na Portaria SPA/MF nº 827, de 2024. Complementarmente, o representante legal da pessoa jurídica requerente deve apresentar declaração à SPA/MF atestando a indisponibilidade no país de origem da pessoa estrangeira de documentos equivalentes aos exigidos na referida Portaria. 
+
+17. A entidade certificadora estrangeira, com capacidade operacional reconhecida pela SPA/MF, pode funcionar no Brasil por meio de uma filial? Nesse caso, é necessário apresentar novo pedido de reconhecimento da capacidade operacional?
+Desde que possua prévia autorização do Poder Executivo para funcionar no País, a entidade certificadora estrangeira pode operar no Brasil por meio de filial. Nesse caso, mantidas as condições de habilitação jurídica, regularidade fiscal e trabalhista, idoneidade e qualificação técnica que justificaram o reconhecimento de sua capacidade operacional, não é necessária nova solicitação junto à SPA/MF. 
+
+18. Qual a definição de “módulos”, previstos na PORTARIA SPA/MF Nº 722, DE 2 DE MAIO DE 2024?
+O sistema de apostas engloba não somente as plataformas de apostas esportivas e de jogos online, mas também os módulos ou subsistemas, em grande parte contratados de provedores distintos, responsáveis por fornecer estatísticas, gerenciar as transações financeiras (meios de pagamento), gerenciar as contas dos usuários (PAM), além dos componentes de hardware que os compõem, como banco de dados.
+
+19. Qual a definição de “sistema de apostas”, prevista na PORTARIA SPA/MF Nº 722, DE 2 DE MAIO DE 2024?
+Sistema informatizado gerido e disponibilizado pelos operadores aos apostadores que possibilita o cadastro dos apostadores, o gerenciamento de suas carteiras virtuais e outras funcionalidades necessárias para gerenciamento, operação e comercialização das apostas de quota-fixa.
+
+20. A plataforma de apostas esportivas e a plataforma de jogos online é o canal eletrônico (online) que fornece acesso para as apostas esportivas e os jogos online respectivamente?
+Segundo o inciso II do art. 2º da referida Portaria, plataforma de apostas consiste no canal eletrônico integrado ao sistema de apostas utilizado para ofertar as apostas esportivas e os jogos on-line aos apostadores.
+
+21. Qual a definição de “software de apostas”, previsto na PORTARIA SPA/MF Nº 722, DE 2 DE MAIO DE 2024?
+O software de apostas é aquele utilizado na realização das apostas em eventos reais de temática esportiva ou em jogos on-line, por meio das plataformas de apostas esportivas e de jogos on-line integradas ao sistema de apostas. Não se confunde, por exemplo, com a URL do jogo online, que é o caminho pelo qual o jogo pode ser acessado pelo apostador.
+
+22. Qual a definição de “software de jogo”, previsto na PORTARIA SPA/MF Nº 722, DE 2 DE MAIO DE 2024?
+O software de jogo é aquele utilizado em tablets e aparelhos celulares para permitir que o apostador realize apostas por meio da plataforma de jogos on-line.
+
+23. Qual é a data limite para obtenção da certificação do sistema de apostas e apresentação do comprovante respectivo à SPA/MF?
+ O artigo 14, inciso V, da Portaria SPA/MF nº 827, de 2024, estabelece que o certificado técnico do sistema de apostas poderá ser apresentado no prazo de até 30 dias, contado da notificação da SPA/MF. Ressalta-se que este certificado deverá observar os requisitos técnicos dos anexos I, II e III da Portaria SPA/MF nº 722, de 2024, nos termos do §1º, art. 6º da mesma Portaria.
+
+24. No que consiste o relatório de avaliação de que trata o artigo 8º da Portaria SPA/MF nº 722, de 2024?
+O relatório de avaliação definido no artigo 8º da citada Portaria diz respeito somente aos requisitos técnicos do anexo IV da mesma Portaria, podendo ser apresentado em até 90 dias após a publicação do ato de autorização da SPA/MF. Posteriormente, esse relatório deve ser revalidado anualmente conforme previsto no parágrafo único do art. 8º.
+
+Importante destacar que os requisitos técnicos definidos nos anexos I, II e III devem ser certificados e apresentados conforme estabelece o artigo 14, inciso V, da Portaria SPA/MF nº 827, de 2024, configurando-se em certificado distinto do relatório de avaliação.
+
+25. Será possível a transferência de recursos entre contas transacionais mantidas em instituições financeiras ou de pagamento distintas?
+Não há vedação à transferência de recursos entre as contas transacionais do agente operador, inclusive com o objetivo de consolidação dos recursos para investimento em Títulos Públicos Federais, observado o disposto no § 3º do art. 4º da Portaria SPA/MF nº 615, de 2024.
+
+26. Os Títulos Públicos Federais vinculados à reserva financeira de que trata o art. 9º da Portaria Normativa SPA/MF nº 615, de 2024, precisam ser trocados antes do vencimento?
+Não é necessário realizar a troca dos Títulos Públicos Federais antes do vencimento. O agente operador pode aguardar o vencimento dos papeis, devendo, contudo, reaplicar o saldo da reserva financeira no mesmo dia da disponibilização dos recursos pelo Tesouro Nacional.
+
+27. Com qual frequência o agente operador deverá transferir os seus ganhos da conta transacional para a conta proprietária?
+Visando ao cumprimento da regra constante do § 3º do art. 4º da Portaria SPA/MF nº 615, de 2024, o agente operador deve transferir os seus ganhos para a conta proprietária em até cento e vinte minutos, contados do encerramento do evento esportivo ou da sessão de jogo on-line, imediatamente após o pagamento dos prêmios quando for o caso. Desse modo, evita-se a manutenção de recursos de propriedade do agente operador nas contas transacionais, o que é vedado pelo § 6º do art. 4º da Portaria.
+
+28. Caso a instituição financeira ou de pagamento receba um PIX de uma conta não cadastrada de apostador, como deve proceder?
+Os aportes de recursos devem ser realizados por meio de transferência eletrônica entre uma conta cadastrada do apostador e a conta transacional do agente operador. Assim, o agente operador deve desenvolver processos que minimizem a possibilidade de aportes provenientes de contas não cadastradas. Na ocorrência desses aportes, a devolução dos recursos deverá ser imediata, ainda que o titular da conta de origem seja um apostador com outra conta cadastrada no agente operador.
+
+29. É possível que o agente operador utilize como mecanismos de liquidez recorrente os recursos da reserva financeira? Em que conta devem ser mantidas eventuais reservas adicionais?
+O saldo da reserva financeira será utilizado pelo agente operador apenas quando esgotados os valores da conta proprietária e das demais disponibilidades previstas no plano de contingências. Assim, uma vez que eventuais movimentações da conta de reserva financeira dependem de prévia autorização da SPA/MF, o agente operador deverá manter eventuais reservas adicionais na conta proprietária se busca maior flexibilidade na movimentação dos recursos.
+
+30. O saldo da reserva financeira precisa ser ajustado conforme o nível de atividade da pessoa jurídica requerente?
+O agente operador deve manter como reserva financeira, no mínimo, de R$ 5 milhões, independentemente do seu nível de atividade. A política de gerenciamento da exposição aos riscos de liquidez do agente operador deverá estabelecer como a exposição será mitigada, onde serão mantidas eventuais reservas adicionais e se é o caso de ampliar o volume de recursos da reserva financeira.
+
+31. É permitida a cobrança de taxas na conta transacional pelos serviços de pagamento prestados pelas instituições financeiras e de pagamento contratadas pelo agente operador?
+O pagamento pelos serviços prestados pelas instituições financeiras e de pagamento é de responsabilidade do agente operador. As despesas decorrentes desses serviços não podem ser repassadas aos apostadores, devendo ser cobradas na conta proprietária.
+
+32. A instituição financeira ou de pagamento pode conceder um cheque especial para a conta transacional?
+Eventuais linhas de crédito compõem o plano de contingências do agente operador, devendo estar vinculadas à conta proprietária, que mantém recursos de propriedade e livre movimentação do agente operador.
+
+33. Há possibilidade de concessão de bônus aos apostadores?
+Nos termos do inciso I do caput do art. 29 da Lei nº 14.790, de 2023, é vedado ao agente operador conceder, sob qualquer forma, adiantamento, antecipação, bonificação ou vantagem prévia, ainda que a mero título de promoção, de divulgação ou de propaganda, para a realização de aposta. Com base nesse dispositivo, entende-se que apenas os chamados bônus de “entrada” ou de “boas-vindas” estão vedados neste momento. Outras regras relacionadas à concessão de bônus serão estabelecidas em regulamentos futuros da SPA/MF.
+
+34. O histórico dos últimos 36 meses na conta gráfica do jogador deve estar disponível para o jogador mediante solicitação?
+O acesso ao histórico de que trata o inciso I do § 1º do art. 6º da Portaria SPA/MF nº 615, de 2024, deverá ser disponibilizado na conta gráfica, independentemente de solicitação por meio dos canais de atendimento do agente operador, admitida a possibilidade de download de arquivo específico.
+
+35. Em caso de suspeitas de lavagem de dinheiro ou outras fraudes, as solicitações de retirada e o pagamento de prêmios também devem observar o prazo limite de liquidação financeira de 120 minutos?
+Desde que as razões sejam documentadas, o agente operador poderá reter os recursos por mais do que 120 minutos. A SPA-MF avalia a inclusão de dispositivo sobre o tema em regulamento específico.
+
+36. Qual o prazo limite de liquidação financeira dos prêmios e retiradas para eventos que ocorram fora do expediente bancário, como finais de semana e feriados nacionais?
+Os prazos fixados na Portaria SPA/MF nº 615, de 2024, para pagamento dos prêmios e efetivação das retiradas, aplicam-se inclusive aos eventos encerrados fora do expediente bancário, fins de semana ou feriados. Por isso, é obrigação do agente operador manter recursos disponíveis suficientes para o cumprimento dessas obrigações, inclusive realizando a aplicação apenas parcial do saldo das contas transacionais se necessário.
+
+37. Quais são as consequências para o agente operador caso o pagamento dos prêmios seja realizado após o prazo limite de 120 minutos?
+Regulamento específico da SPA/MF, previsto para a Fase 3 da Agenda Regulatória, disciplinará todas as sanções aplicáveis aos agentes operadores, inclusive em caso de descumprimento das regras constantes da Portaria SPA/MF nº 615, 16 de abril de 2024.
+
+38. A Portaria SPA/MF nº 615, de 2024, veda ao agente operador permitir a realização de apostas sem a prévia liquidação da transferência eletrônica de aporte financeiro. O que isso significa exatamente?
+Em observância ao inciso I do § 4º do art. 3º da Portaria SPA/MF nº 615, de 2024, o agente operador não poderá permitir a realização de apostas a descoberto, isto é, sem que os recursos correspondentes do apostador estejam disponíveis na conta transacional.
+
+39. Os limites de exposição, de que trata o art. 8º da Portaria Normativa SPA/MF nº 615, de 2024, devem considerar as linhas de crédito pré-aprovadas e o saldo da reserva financeira do agente operador?
+Nos termos do § 2º do art. 8º, o agente operador deverá manter nas contas proprietárias recursos suficientes para a realização de despesas operacionais e para a cobertura dos limites de exposição. Assim, os limites de exposição ao risco de liquidez devem ser estabelecidos considerando o saldo das contas proprietárias. Os limites de crédito pré-aprovados e demais fontes líquidas de recursos comporão o plano de contingências.
+
+40. Caso o agente operador queira aumentar sua exposição aos riscos de liquidez, que ações podem ser realizadas?
+No curto prazo, a elevação da exposição aos riscos de liquidez deve ser acompanhada da ampliação do volume de recursos mantidos na conta proprietária. A médio prazo, como medida estruturante, deve-se elevar o capital social, dependendo da política estabelecida, já que os limites de exposição também devem ser proporcionais ao patrimônio líquido.
+
+41. Caso o agente operador queira mitigar sua exposição aos riscos de liquidez, que ações podem ser realizadas?
+No curto prazo, as ações mitigadoras de exposição podem incluir a elevação do saldo da conta proprietária, a redução das odds, a limitação do volume de apostas aceitas, a interrupção temporária da oferta de novos eventos etc. De modo complementar, como medida estruturante de médio prazo, o agente operador pode aumentar o capital social, adequando sua exposição aos limites estabelecidos na política de gerenciamento de liquidez.
+
+42. De acordo com o § 1º do art. 8º da Portaria Normativa SPA/MF nº 615, de 2024, os limites de exposição devem ser proporcionais ao patrimônio líquido da operadora. A expectativa regulatória é definir uma proporção do patrimônio líquido como limite de exposição?
+Neste momento, a definição da proporção do patrimônio líquido que pode ser comprometida pela exposição ao risco de liquidez é de responsabilidade dos administradores do agente operador. Futuramente, após ter uma visão geral das políticas estabelecidas e da capacidade econômico-financeira dos operadores, a SPA/MF avaliará a necessidade de estabelecer limites máximos de exposição.
+
+43. Existe alguma orientação da SPA/MF para a proporção aceitável de exposição mínima ou máxima em relação ao patrimônio líquido?
+Neste momento, não há uma proporção considerada adequada de exposição em relação ao patrimônio líquido. Sugere-se, contudo, que a exposição seja estabelecida de forma prudencial e que seja aderente ao histórico de operações da empresa, quando disponível.
+
+44. É necessário enviar um balanço patrimonial à SPA/MF caso um aumento da exposição ao risco de liquidez motive um aumento de capital social?
+Quando julgar necessário, a SPA/MF poderá solicitar documentos comprobatórios visando verificar a adequação da política de gerenciamento de liquidez. Regulamento específico da SPA/MF, previsto para a Fase 3 da Agenda Regulatória, estabelecerá regras e procedimentos de monitoramento e fiscalização.
+
+45. A Portaria SPA/MF nº 722/2024 estabelece que os agentes operadores devem manter os sistemas de apostas e os respectivos dados em servidores (data centers) localizados em território brasileiro. Caso optem por manter fora do território brasileiro, devem ser observados requisitos do art. 4º, entre eles o de acordo de cooperação jurídica internacional e o de replicação de dados. Quais as regras relativas ao acordo de cooperação jurídica internacional? Como dever ser feito o processo de replicação?
+Para a finalidade do art. 4º, §1º da referida Portaria, consideram-se os países com os quais o Brasil possa cooperar com base em acordos bilaterais ou multilaterais, em matéria penal e em matéria civil. As orientações sobre a cooperação jurídica internacional e os acordos atualmente em vigor podem ser encontrados no sítio eletrônico da autoridade central brasileira, o Departamento de Recuperação de Ativos e Cooperação Jurídica Internacional, do Ministério da Justiça e Segurança Pública: https://www.gov.br/mj/pt-br/assuntos/sua-protecao/cooperacao-internacional Para verificar o estado das adesões dos países a cada convenção multilateral, devem ser consultados os sítios eletrônicos específicos.
+
+Além disso, ao agente operador deve replicar, no Brasil, os dados definidos na Portaria SPA/MF nº 722, de 2024, Anexo I, sessão “Da manutenção dos dados”, conforme modelo a ser definido no Manual Sigap. A atualização dos dados ocorrerá, ao menos, a cada 24 horas, devendo sua integridade e correspondência serem testadas, ao menos, a cada 7 dias.
+
+46. Para fins do §5º do Art. 7º da Portaria SPA/MF nº 827, será exigido Apostilamento para documentos de origem estrangeira?
+O Apostilamento é um certificado exigido com fundamento em norma superior, Decreto nº 8.660/2016, Convenção de Haia, do qual o Brasil é signatário, para atestar origem de documentos públicos estrangeiros. Assim, a exigência do Apostilamento é complementar a de tradução juramentada.
+
+47. Quando o operador de apostas de quota fixa deve pedir habilitação no Sistema de Controle de Atividades Financeiras, o Siscoaf?
+O pedido de habilitação junto ao Siscoaf deve ocorrer somente após o agente operador passar por todo o processo de autorização da Secretaria de Prêmios e Apostas do Ministério da Fazenda. Depois de cumprir os requisitos estabelecidos na Portaria SPA MF 827, de 21 de maio de 2024, a SPA vai inserir o CNPJ do agente operador no Siscoaf, daí então ele poderá solicitar a habilitação.
+
+48. Quais dados devem ser armazenados pelos agentes operadores de apostas? Esses dados devem ser encaminhados à SPA/MF?
+Os agentes operadores de apostas devem manter e realizar o backup, pelo prazo mínimo de 5 (cinco) anos, de todos os dados relativos aos apostadores e às operações especificados no anexo I da Portaria SPA/MF nº 722, de 2024, além de outros a serem previstos no Manual do Sistema de Gerenciamento de Apostas (Sigap). A atualização dos dados ocorrerá, ao menos, a cada 24 horas, devendo sua integridade e correspondência serem testadas, ao menos, a cada 7 dias.
+Além disso, eles deverão realizar transmissão de informações padronizadas acerca de apostadores, dos dados agregados do agente operador, das apostas e das carteiras de apostadores, conforme modelo e periodicidade que constarão do referido Manual SIGAP. O envio deve ser feito pelo agente operador que detém a autorização para exploração da modalidade lotérica de apostas de quota fixa no Brasil, e não por seus fornecedores.
+
+49. Como os sistemas de apostas serão monitorados e fiscalizados pela SPA/MF?
+Os sistemas de apostas, que compreendem as plataformas de apostas esportivas e de jogos on-line, poderão ser acessados, de forma remota ou presencial e ampla e irrestrita, pela SPA/MF, para fins de supervisão. Disposições específicas sobre o processo de monitoramento e fiscalização serão definidas em portaria.
+
+50. Ao examinar um sistema de apostas, a certificadora pode considerar testes já realizados em padrões internacionais, sem a necessidade de repeti-los?
+Os requisitos de sistema previstos na regulação brasileira que já tenham sido objeto de testes anteriores não precisarão ser novamente testados, desde que eles sejam comuns entre a norma brasileira e de outras jurisdições (padrões internacionais). As certificadoras devem, portanto, certificar que todos os requisitos da regulação brasileira estejam atendidos.
+
+51. De que forma os usuários dos sistemas de apostas devem ser autenticados?
+O sistema de apostas deve autenticar a entrada de qualquer apostador cadastrado no sistema por meio de usuário e senha ou por meio de biometria. Em caso de inatividade do apostador por 30 minutos ou mais, o sistema deverá requerer dele nova autenticação, não sendo permitida a realização de nenhuma aposta ou transação financeira até que ela ocorra.
+
+Além disso, após acessar o sistema, cada apostador deve passar por uma verificação de localização antes de fazer a primeira aposta. As verificações subsequentes neste dispositivo deverão ocorrer a cada 30 minutos.
+
+52. Como deverão ser declarados os impostos relacionados a eventuais ganhos com apostas?
+Questões relacionadas ao pagamento de impostos pelo apostador serão disciplinadas pela Secretaria da Receita Federal do Brasil.
+
+53. A regulamentação estabelece requisitos de segurança dos sistemas de apostas?
+Sim, os requisitos de segurança definidos na Portaria SPA/MF nº 722, de 2024, incluem, entre outros: monitoramento de componentes críticos e de transmissão, backup e alteração de dados, proteção contra hackers, localização segura de servidores, controle para prevenção de acesso não autorizado (inclusive por funcionários dos agentes), plano e fornecimento de energia ininterrupta e plano de continuidade de negócios.
+
+54. Em até quanto tempo os prêmios devem ser pagos ao apostador?
+Os prêmios devem ser pagos aos apostadores vencedores no prazo de até 120 (cento e vinte) minutos, contados do encerramento do evento real de temática esportiva ou da sessão do evento virtual de jogos on-line objeto das apostas, por meio de transferência eletrônica entre a conta transacional e conta previamente cadastrada do apostador.
+
+Ademais, mediante opção do apostador, os prêmios recebidos podem permanecer na conta transacional, com registro na conta gráfica, para utilização de seus créditos em novas apostas, perante o mesmo agente operador.
+
+O art. 20, da Lei 14790/2023 autoriza a suspensão de pagamentos de prêmios oriundos de apostas investigadas sobre as quais recaia fundada dúvida quanto à manipulação de resultados ou corrupção nos eventos de temática esportiva. O artigo 7º, §8º, da Portaria 615/2024 dispõe que o agente operador deve manter a guarda de documentos que justifiquem o eventual não pagamento em 120 minutos, exatamente para que possa haver exceções. A SPA-MF avalia a inclusão de dispositivo sobre o tema em regulamento específico.
+
+55. Os eventos esportivos que envolvam menores de 18 anos podem ser objeto de apostas? Quais os requisitos dos eventos?
+A Lei nº 14.790, de 2023, veda expressamente as apostas em eventos esportivos que envolvam categorias de base ou que tenham a participação exclusiva de menores de 18 anos de idade. Dessa forma, caso haja menores de 18 anos competindo com maiores em eventos profissionais, não se aplica a vedação.
+
+Também é clara a previsão legal de que, para serem objeto das apostas de quota fixa, os eventos reais de temática esportiva devem ser organizados de acordo com as regras estabelecidas pela organização nacional de administração do esporte, na forma prevista na Lei nº 14.597, de 14 de junho de 2023 (Lei Geral do Esporte), ou por suas organizações afiliadas ou por organizações de administração do esporte sediadas fora do País.
+
+56. Quais tipos de jogos on-line não se enquadram na modalidade de evento virtual de jogo on-line de aposta de quota fixa?
+De acordo com a Portaria nº 1.207, de 29 de julho de 2024, art. 3º, parágrafo único, não se enquadram na modalidade de evento virtual de jogo on-line de aposta de quota fixa, de que trata a Lei nº 14.790, de 29 de dezembro de 2024:
+
+I - os jogos de habilidade:
+
+· são considerados de habilidade não apenas os jogos predominantemente de habilidade (como o pôquer), mas também os jogos de azar em que habilidades ou estratégia afetam o resultado;
+
+· não são considerados de habilidade os jogos on-line para um único jogador, a exemplo de videopôquer para um jogador, ou jogos similares.
+
+Obs: O item 24, ‘a’, do anexo I, da Portaria dispõe que, no caso de jogos cujo resultado é aleatório e nos quais a ilusão de habilidade serve apenas para melhorar o entretenimento (não classificáveis, portanto, como de habilidades), deve ser divulgada nas telas de ajuda a informação de que os jogos são projetados para dar ao apostador apenas a percepção de que ele tem o controle sobre o resultado do jogo devido a sua habilidade ou destreza.
+
+II - os fantasy sports, nos termos do art. 2º, inciso VII da Portaria;
+
+III - os jogos multiapostador:
+
+· não são considerados multiapostador os jogos em que um único resultado gerado pelo sistema se aplica a vários jogadores (a exemplo de um jogo de roleta ao vivo em que vários jogadores estão na mesa fazendo apostas e a rotação da roda determina o resultado para todos os jogadores), uma vez que, nesses casos, o resultado do jogo é o mesmo para todos os apostadores (ou seja, as ações de um apostador ou resultados por ele obtidos não são influenciados pelo resultado ou ação de qualquer outro apostador); e
+IV - os jogos entre apostadores P2P, inclusive torneios de jogos entre apostadores.
+
+57. A Portaria nº 1.207, de 29 de julho de 2024, traz regras específicas para alguns tipos de jogos on-line. O que acontece quando o normativo não cita expressamente um tipo de jogo?
+Os casos que não se enquadram na modalidade de evento virtual de jogo on-line de aposta de quota fixa constam expressamente do art. 3º, parágrafo único do normativo. Nos demais casos, devem ser observados os requisitos gerais previstos no normativo e, se houver, os requisitos específicos para determinadas modalidades de jogo.
+
+58. Podem ser ofertados prêmios de incentivo aos apostadores em jogos on-line?
+Sim. Esses prêmios podem estar integrados ao próprio jogo, ou seja, são obtidos da aposta e funcionalidades apresentadas em uma segunda tela do sistema acessada pelo apostador. Além disso, eles podem ser externos (não integrados) ao jogo em si, desde que não sejam incluídos na porcentagem de pagamento (para fins de Retorno ao Apostador -RTP), a menos que os incentivos sejam necessários para a operação.
+
+Importante destacar que esses prêmios são diferentes de adiantamento, antecipação, bonificação ou vantagem prévia, para a realização de aposta, os quais são vedados pelo art. 29 da Lei nº 14.790, de 29 de dezembro 2023.
+
+59. No caso de jogos ao vivo, quais regras devem ser observadas?
+No caso de jogos on-line em estúdios ao vivo (como uma simulação de um jogo de cassino ao vivo, como pôquer, blackjack, roleta), devem ser observadas as disposições do anexo I, da Portaria nº 1.207, de 29 de julho de 2024, que trata das regras gerais e específicas para jogos on-line, e do anexo II, da mesma Portaria, que traz as disposições que regulamentam o estúdio ao vivo, relativamente a segurança, vigilância, equipamentos, materiais de consumo e procedimentos do estúdio.
+
+60. Para os agentes operadores de quota fixa que atuem apenas no segmento de jogos online, e não no de apostas esportivas, é necessário integração ou associação do agente operador a organismos nacionais ou internacionais de monitoramento da integridade esportiva?
+Sim. A integração ou associação do agente operador a organismos nacionais ou internacionais de monitoramento da integridade esportiva é um dos requisitos definidos na Lei 14.790, de 30 de dezembro de 2023. A Lei 14.790/2023 não faz distinção entre os objetos de aposta, sejam apostas esportivas ou de jogos.
+
+61. É possível acrescentar ao requerimento o pedido de novas marcas (limitado a 3 marcas no total) após o protocolo?
+É possível realizar alterações no pedido inicial, sendo essas alterações consideradas aditamentos. Nesse caso, a data de início do processo será considerada a data de entrada do aditamento e, não mais a data inicial de entrada do processo.
+
+62. É possível alterar documentação durante a análise do processo já protocolado?
+É possível realizar alterações no pedido inicial, sendo essas alterações consideradas aditamentos, se propostas por iniciativa do requerente. Nesse caso, a data de início do processo será considerada a data de entrada do aditamento e, não mais a data inicial de entrada do processo. No caso de pedido de informações complementares feito por iniciativa do Ministério da Fazenda, a inclusão de outros documentos não será tratada como aditamento do processo.
+
+63. Qual a melhor forma de interpretar o art.12, III, da Portaria SPA/MF nº 827/2024, que prevê sistema de atendimento a apostadores sediado no Brasil?
+A Lei nº 14.790/2023 determinou, em seu art. 28, que o agente operador deverá dispor de serviço de atendimento aos apostadores, operacionalizado por canal eletrônico ou telefônico de acesso e uso gratuitos, a fim de receber e resolver dúvidas e solicitações relacionadas à operacionalização da loteria de aposta de quota fixa, nos termos da regulamentação do Ministério da Fazenda.
+
+Por sua vez, a regulamentação, por intermédio da Portaria SPA/MF nº 827/2024, art. 12, inciso III, impôs que a pessoa jurídica requerente deverá comprovar qualificação técnica, dentre outros, com "a descrição da estrutura do sistema de atendimento a apostadores, sediado no Brasil, com atendimento em língua portuguesa, operacionalizado por canal eletrônico e telefônico gratuitos, em regime de funcionamento de vinte e quatro horas por dia, sete dias por semana, apto a atender às reclamações, dúvidas e demais problemas relacionados às apostas, observado o disposto no art. 14". 
+
+O sentido da norma é reforçar a imposição legislativa, com a exigência de todo atendimento ao apostador ser acessível em língua portuguesa, por sistema telefônico gratuito brasileiro ("0800") em horário integral, com observância das regras de direito do consumidor.
+
+A pessoa jurídica localizada no Brasil pode contar com suporte de suas afiliadas, respeitados os requisitos da Lei nº 14.790/2023 e da Portaria SPA/MF nº 827/2024. 
+
+64. Quando será exigida a integralização de capital da pessoa jurídica requerente?
+Conforme art. 14, inciso III, da Portaria SPA/MF nº827/2024, a integralização de capital deverá ser comprovada em até trinta dias contados da notificação de que trata o caput do art. 16 da mesma Portaria.
+
+65. Quem deve ser o responsável pelo requerimento e documentação de apoio por meio da Plataforma SIGAP?
+A operacionalização no SIGAP pode ser realizada por qualquer pessoa autorizada dentro do sistema. Entretanto, é preciso observar os requisitos para assinatura de cada documento e declaração, definidos na Portaria SPA/MF nº 827/2024 e seus anexos. Mais informações também podem ser encontradas no guia de acesso ao SIGAP.
+
+Link:https://www.gov.br/fazenda/pt-br/composicao/orgaos/secretaria-de-premios-e-apostas/arquivos/202407-guia-de-acesso-sigap.pdf
+
+66. Como atender à exigência prevista no inciso VI do art. 12 da Portaria SPA/MF nº 827/2024, de comprovação de cadastro na plataforma digital de que trata o Decreto nº 8.573, de 19 de novembro de 2015?
+Para atendimento ao previsto no inciso VI do art. 12 da Portaria SPA/MF nº 827/2024, deve-se, primeiramente, encaminhar mensagens diretamente à Senacon/MJ - Secretaria Nacional do Consumidor do Ministério da Justiça,
+
+confirmando o interesse do requerente pelo cadastro na plataforma.
+
+O endereço eletrônico é o: cadastro.empresa@consumidor.gov.br
+No assunto do e-mail deve-se escrever o identificador: "Cadastro - operador de aposta"
+E, no corpo do e-mail, citar o nome da pessoa jurídica requerente que constará no pedido de autorização, o seu CNPJ e o objetivo da solicitação.
+
+A resposta ao e-mail deverá ser adicionada ao processo de autorização, atendendo, assim, ao comando do inciso VI do art. 12 da Portaria nº 827/2024. Após a obtenção do domínio brasileiro, a requerente autorizada deve completar a adesão à plataforma da Secretaria Nacional do Consumidor.
+
+67. Os jogos on-line que não sejam de aposta de quota-fixa podem ser ofertados no mesmo sistema em que são ofertados jogos on-line dessa modalidade?
+Não. De acordo com o art. 33, § 5º, da Portaria SPA/MF nº 1.231, de 31 de julho de 2024, o agente operador de apostas não pode ofertar em seu sistema de apostas jogos que não sejam objeto de regulação e autorização pela Secretaria de Prêmios e Apostas do Ministério da Fazenda (SPA/MF), a exemplo de jogos de habilidade, fantasy sports, jogos multiapostador e jogos P2P, que não se enquadram na modalidade de jogos on-line de aposta de quota fixa por força expressa do art. 3º, parágrafo único, da Portaria nº 1.207, de 29 de julho de 2024.
+
+68. A reserva financeira deve ser obrigatoriamente mantida em uma instituição financeira?
+Sim, o agente operador deve constituir a reserva financeira em uma conta de depósito de sua titularidade mantida em instituição financeira. As instituições de pagamento não participam do Selic e consequentemente não podem custodiar Títulos Públicos Federais - TPF. Assim, o § 1º do art. 9º da Portaria Normativa SPA/MF nº 615, de 2024, prevê que a reserva financeira, no valor de R$ 5 milhões, deve ser custodiada em uma instituição financeira sob a forma de TPF.
+
+Além disso, as instituições financeiras só podem vincular os TPF custodiados no Selic às contas de seus clientes. Desse modo, o § 6º do art. 9º da Portaria estabelece que os TPF devem ser vinculados à conta de depósito (ofertada por instituições financeiras) que manterá a reserva financeira. Se a reserva financeira fosse mantida em uma instituição de pagamento, não seria possível vincular a conta de pagamento do agente operador aos TPF custodiados no Selic, uma vez que o cliente da instituição financeira no Sistema seria a instituição de pagamento.
