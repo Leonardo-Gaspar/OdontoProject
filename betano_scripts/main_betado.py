@@ -1,20 +1,24 @@
-from dotenv import load_dotenv
-from reader_txt import carregar_documentos
-from agent_betano import criar_agente, responder_pergunta
+from dotenv import load_dotenv 
+from agent_betano import AgenteOpenAIFunctions
+from langchain.agents import AgentExecutor
 
-# Carrega as variáveis de ambiente do arquivo .env
 load_dotenv()
 
 def main():
-    documentos = carregar_documentos()
-
-    agente = criar_agente(documentos)
-
-    pergunta = input("Qual pergunta deseja fazer? ")
+    agente = AgenteOpenAIFunctions()
+    executor = AgentExecutor(agent=agente.agente,
+                            tools=agente.tools,
+                            verbose=True)
     
-    # Obtém a resposta
-    resposta = responder_pergunta(agente, pergunta)
-    print(resposta)
+    while True:
+        pergunta = input("Digite o que está procurando ou digite 's' para sair: ")
+        
+        if pergunta.lower() == 's':
+            print("Encerrando o chat...")
+            break
 
+        resposta = executor.invoke({"input": pergunta})
+        print(resposta)
+        
 if __name__ == "__main__":
     main()
