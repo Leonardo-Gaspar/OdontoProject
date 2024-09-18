@@ -13,6 +13,14 @@ def carregar_documentos():
         TextLoader("betano_documents/loterias/loterias.txt", encoding="utf-8"),
         TextLoader("betano_documents/promocao_comercial/promocao_comercial.txt", encoding="utf-8"),
         TextLoader("betano_documents/promocoes_comerciais/promocoes_comerciais.txt", encoding="utf-8"),
+        TextLoader("betano_documents/afiliados_TeC/afiliados_TeC.txt", encoding="utf-8"),
+        TextLoader("betano_documents/politica_de_bonus/politica_de_bonus.txt", encoding="utf-8"),
+        TextLoader("betano_documents/politica_de_jogo_responsavel/politica_de_jogo_responsavel.txt", encoding="utf-8"),
+        TextLoader("betano_documents/politica_de_privacidade/politica_de_privacidade.txt", encoding="utf-8"),
+        TextLoader("betano_documents/politica_de_reclamacao/politica_de_reclamacao.txt", encoding="utf-8"),
+        TextLoader("betano_documents/regra_de_apostas/regra_de_apostas.txt", encoding="utf-8"),
+        TextLoader("betano_documents/seguranca/seguranca.txt", encoding="utf-8"),
+        TextLoader("betano_documents/termos_e_condicao/termos_e_condicao.txt", encoding="utf-8"),
     ]
 
     documentos = []
@@ -22,12 +30,13 @@ def carregar_documentos():
     return documentos
 
 class ExtratorDeBetano(BaseModel):
-    betano_dados: str = Field("Extrator de todos os dados obtidos através de artigos e leis.")
+    betano_dados: str = Field("Extrator de todos os dados obtidos através de artigos, leis e documentação Betano.")
 
 class TxtReader(BaseTool):
     name = "TxtReader"
     description = """Esta ferramenta é utilizada para fazer a leitura completa
-    de todos os arquivos TXTs inseridos na pasta 'betano_documents'"""  
+    de todos os arquivos TXTs inseridos para alimentar sua base de dados.
+    Você deve fornecer um resposta mais próxima da realidade o possível, baseada nos documentos que foram inseridos. """  
     
     def _run(self, input: str) -> str:
         llm = ChatOpenAI(model="gpt-4", 
