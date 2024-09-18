@@ -16,30 +16,14 @@ from langgraph.graph import END, StateGraph, START
 from langgraph.prebuilt import tools_condition, Assistant, create_tool_node_with_fallback, part_1_assistant_runnable, part_1_tools
 import os
 import json
-import uuid
-from tools_betano import update_info_user, _print_event
-from langchain_chains import RetrievalQA
+from langchain.chains import RetrievalQA
 from IPython.display import Image, display
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
-# Definição do gráfico de estado
 class State(TypedDict):
     messages: Annotated[list[AnyMessage], add_messages]
-
-# Ajuste para perguntas relacionadas a apostas online
-tutorial_questions = [
-    "Quais são as melhores estratégias de apostas para o próximo jogo de futebol?",
-    "Como posso acompanhar as odds ao vivo durante uma partida?",
-    "Qual é o limite máximo de aposta para a próxima corrida de cavalos?",
-    "Quais são os bônus disponíveis para novos apostadores?",
-    "Como posso fazer uma aposta múltipla em diferentes esportes?",
-    "Qual é a política de reembolso para apostas não concluídas?",
-    "Há algum limite para apostas em jogos de cassino online?",
-    "Como posso verificar o status das minhas apostas atuais?",
-]
-
-# Configuração do gráfico
+    
 class ApostasOnlineAgent:
     def __init__(self):
         self.llm = ChatOpenAI(model="gpt-4", temperature=0.5, api_key=OPENAI_API_KEY)
@@ -140,24 +124,3 @@ class ApostasOnlineAgent:
     def responder_pergunta(qa_chain, pergunta):
         resultado = qa_chain.invoke({'query': pergunta})
         return resultado
-
-# Atualização do banco de dados e configuração
-db = update_info_user(db)
-thread_id = str(uuid.uuid4())
-
-config = {
-    "configurable": {
-        "user_id": "12345",
-        "thread_id": thread_id,
-    }
-}
-
-_printed = set()
-agent = ApostasOnlineAgent()  # Instancia o agente
-
-for question in tutorial_questions:
-    events = agent.part_1_graph.stream(
-        {"messages": ("user", question)}, config, stream_mode="values"
-    )
-    for event in events:
-        _print_event(event, _printed)

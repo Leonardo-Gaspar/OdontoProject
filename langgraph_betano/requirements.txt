@@ -1,12 +1,11 @@
-faiss-cpu==1.8.0
-openai==1.13.3
-langchain==0.1.11
-langchain-openai==0.0.8
-python-dotenv==1.0.1
-langchainhub==0.1.15
-langchain-core==0.3.1
-langchain-text-splitters==0.3.0
-pydantic==2.9.2
-pydantic-core==2.23.4
-pandas==2.2.2
-ipython == 8.27.0
+faiss-cpu
+openai
+langchain
+langchain-openai
+python-dotenv
+langchainhub
+langchain-core
+langchain-text-splitters
+pydantic
+pandas
+ipython
