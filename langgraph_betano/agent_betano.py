@@ -16,19 +16,36 @@ from langgraph.graph import END, StateGraph, START
 from langgraph.prebuilt import tools_condition, Assistant, create_tool_node_with_fallback, part_1_assistant_runnable, part_1_tools
 import os
 import json
+import uuid
+from tools_betano import update_info_user, _print_event
+from langchain_chains import RetrievalQA
+from IPython.display import Image, display
 
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
+# Definição do gráfico de estado
 class State(TypedDict):
     messages: Annotated[list[AnyMessage], add_messages]
-    
-class AgenteOpenAIFunctions:
-    def __init__(self):
-        self.llm = ChatOpenAI(model="gpt-4",
-                              temperature=0.5,
-                              api_key=os.getenv("OPENAI_API_KEY"))
 
+# Ajuste para perguntas relacionadas a apostas online
+tutorial_questions = [
+    "Quais são as melhores estratégias de apostas para o próximo jogo de futebol?",
+    "Como posso acompanhar as odds ao vivo durante uma partida?",
+    "Qual é o limite máximo de aposta para a próxima corrida de cavalos?",
+    "Quais são os bônus disponíveis para novos apostadores?",
+    "Como posso fazer uma aposta múltipla em diferentes esportes?",
+    "Qual é a política de reembolso para apostas não concluídas?",
+    "Há algum limite para apostas em jogos de cassino online?",
+    "Como posso verificar o status das minhas apostas atuais?",
+]
+
+# Configuração do gráfico
+class ApostasOnlineAgent:
+    def __init__(self):
+        self.llm = ChatOpenAI(model="gpt-4", temperature=0.5, api_key=OPENAI_API_KEY)
         self.txt_documents_reader = TxtReader()
         self.txt_policies_reader = VectorStoreRetriever()
-        
+
         self.tools = [
             Tool(
                 name=self.txt_documents_reader.name,
@@ -37,46 +54,48 @@ class AgenteOpenAIFunctions:
                 return_direct=False
             ),
             Tool(
-                docs=self.txt_policies_reader._docs,
+                name="txt_policies_reader",
                 func=self.txt_policies_reader.query,
-                description="""Consulta as polítics da companhia para verificar se as coisas pedidas ou citadas pelo usuário, podem ser executadas ou não.
-                    Use isso antes de escrever qualquer evento para o usuário, se excessão.""",
+                description="Busca informações sobre apostas e políticas da empresa.",
                 return_direct=False
             )
         ]
-        
+
         prompt = ChatPromptTemplate.from_messages(
             [
                 (
                     "system",
-                    "You are a helpful customer support assistant for Betano. "
-                    " Use the provided tools to search for user_id, company policies, and other information to assist the user's queries. "
-                    " When searching, be persistent. Expand your query bounds if the first search returns no results. "
-                    " If a search comes up empty, expand your search before giving up."
-                    "\n\nCurrent user:\n\n{user_info}\n"
-                    "\nCurrent time: {time}.",
+                    "Você é um assistente especializado em apostas online. Use as ferramentas fornecidas para buscar informações sobre apostas, bônus, políticas da empresa e outros detalhes relacionados. Se a primeira busca não retornar resultados, expanda o escopo da busca."
+                    "\n\nUsuário atual:\n\n{user_info}\n"
+                    "\nHora atual: {time}.",
                 ),
                 ("placeholder", "{messages}"),
             ]
         ).partial(time=datetime.now())
-        
+
         self.agente = prompt | self.llm.bind_tools(self.tools)
 
+        # Definição do StateGraph
         builder = StateGraph(State)
-        builder.add_node("assistant", self._assistant_node())
-        builder.add_node("tools", self._tools_node())
+        builder.add_node("assistant", Assistant(part_1_assistant_runnable))
+        builder.add_node("tools", create_tool_node_with_fallback(part_1_tools))
         builder.add_edge(START, "assistant")
         builder.add_conditional_edges("assistant", tools_condition)
         builder.add_edge("tools", "assistant")
 
+        # Configuração da memória para o gráfico
         memory = MemorySaver()
         self.part_1_graph = builder.compile(checkpointer=memory)
 
-    def _assistant_node(self):
-        return Assistant(part_1_assistant_runnable)
+        # Exibir o gráfico
+        self._display_graph()
 
-    def _tools_node(self):
-        return create_tool_node_with_fallback(part_1_tools)
+    def _display_graph(self):
+        try:
+            display(Image(self.part_1_graph.get_graph(xray=True).draw_mermaid_png()))
+        except Exception:
+            # Isso requer algumas dependências extras e é opcional
+            pass
 
     def _run(self, input_text: str) -> str:
         resposta = self.agente.invoke({"input": input_text})
@@ -98,7 +117,7 @@ class AgenteOpenAIFunctions:
             else:
                 break
         return {"messages": result}
-    
+
     @staticmethod
     def criar_qa_chain(documentos):
         llm = ChatOpenAI(
@@ -121,3 +140,24 @@ class AgenteOpenAIFunctions:
     def responder_pergunta(qa_chain, pergunta):
         resultado = qa_chain.invoke({'query': pergunta})
         return resultado
+
+# Atualização do banco de dados e configuração
+db = update_info_user(db)
+thread_id = str(uuid.uuid4())
+
+config = {
+    "configurable": {
+        "user_id": "12345",
+        "thread_id": thread_id,
+    }
+}
+
+_printed = set()
+agent = ApostasOnlineAgent()  # Instancia o agente
+
+for question in tutorial_questions:
+    events = agent.part_1_graph.stream(
+        {"messages": ("user", question)}, config, stream_mode="values"
+    )
+    for event in events:
+        _print_event(event, _printed)
