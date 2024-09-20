@@ -10,7 +10,7 @@ from langchain_text_splitters import CharacterTextSplitter
 from reader_txt import TxtReader
 from datetime import datetime
 from langchain.agents import Tool
-from tools_betano import VectorStoreRetriever
+from langgraph_betano.tools_okto import VectorStoreRetriever
 from langgraph.checkpoint.memory import MemorySaver
 from langgraph.graph import END, StateGraph, START
 from langgraph.prebuilt import tools_condition, Assistant, create_tool_node_with_fallback, part_1_assistant_runnable, part_1_tools
