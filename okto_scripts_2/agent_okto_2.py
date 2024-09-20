@@ -43,16 +43,16 @@ class AgenteOpenAIFunctions:
             api_key=os.getenv("OPENAI_API_KEY")
         )
 
-        # Quebra os documentos em pedaços menores
-        quebrador = CharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
+        quebrador = CharacterTextSplitter(chunk_size=500,
+                                          chunk_overlap=100)
+
         textos = quebrador.split_documents(documentos)
 
-        # Criação do vetor de embeddings
         embeddings = OpenAIEmbeddings()
         db = FAISS.from_documents(textos, embeddings)
 
-        # Criação da cadeia de perguntas e respostas
-        qa_chain = RetrievalQA.from_chain_type(llm, retriever=db.as_retriever())
+
+        qa_chain = RetrievalQA.from_chain_type(llm, retriever=db.as_retriever(search_kwargs={"k": 5}))
 
         return qa_chain
 
