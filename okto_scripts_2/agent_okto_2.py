@@ -2,7 +2,7 @@ from langchain.chains import RetrievalQA
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain_text_splitters import CharacterTextSplitter
-from reader_txt import TxtReader
+from reader_txt_2 import TxtReader
 from langchain import hub
 from langchain.agents import create_react_agent, Tool
 import os

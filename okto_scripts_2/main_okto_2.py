@@ -1,5 +1,5 @@
 from dotenv import load_dotenv 
-from agent_okto import AgenteOpenAIFunctions
+from agent_okto_2 import AgenteOpenAIFunctions
 from langchain.agents import AgentExecutor
 
 load_dotenv()
