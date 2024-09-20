@@ -65,4 +65,4 @@ def carros_estoque(query: str):
         allow_dangerous_code=True,
         agent_type='tool-calling'
     )
-    return df #agent.invoke({'input':query})
+    return agent.invoke({'input':query})

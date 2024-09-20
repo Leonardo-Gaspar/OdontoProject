@@ -15,10 +15,8 @@ class AgenteOpenAIFunctions:
                               temperature=0.5,
                               api_key=os.getenv("OPENAI_API_KEY"))
 
-        # Instanciar o TxtReader
         self.txt_reader = TxtReader()
         
-        # Configurar as ferramentas
         self.tools = [
             Tool(
                 name=self.txt_reader.name,

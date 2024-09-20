@@ -1,0 +1,14 @@
+faiss-cpu
+openai
+langchain
+langchain-openai
+python-dotenv
+langchainhub
+langchain-core
+langchain-text-splitters
+pydantic
+pandas
+ipython
+langchain-experimental 
+langchain-community 
+chromadb

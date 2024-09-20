@@ -1,10 +1,10 @@
 import shutil
 import uuid
 from dotenv import load_dotenv 
-from langgraph_betano.tools_okto import update_info_user,_print_event
-from langgraph_betano.agent_okto import ApostasOnlineAgent
+from tools_okto import update_info_user,_print_event
+from agent_okto import ApostasOnlineAgent
 from langchain.agents import AgentExecutor
-from langgraph_betano.agent_okto import part_1_graph
+from agent_okto import part_1_graph
 
 load_dotenv()
 
