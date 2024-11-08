@@ -59,12 +59,3 @@ if prompt := st.chat_input("Fale com o assistente OdontoPrev"):
         message = model_res_generator(prompt)
         st.session_state["messages"].append({"role": "assistant", "content": message})
         st.markdown(message, unsafe_allow_html=False)
-
-        # Adiciona um botão para o usuário dar feedback na resposta
-        feedback_col, comment_col = st.columns([1, 2])
-        with feedback_col:
-            if st.button('👍 Útil', key=f'positivo_{message}'):
-                st.success('Obrigado pelo feedback positivo!')
-            if st.button('👎 Não útil', key=f'negativo_{message}'):
-                st.error('Sentimos muito! Vamos tentar melhorar.')
-
