@@ -1,7 +1,5 @@
 # OdontoPrev Chatbot
 
-![OdontoPrev Logo](path_to_logo_image)
-
 ## 📄 Descrição
 
 O **OdontoPrev Chatbot** é um assistente virtual desenvolvido com **Streamlit** para facilitar o acesso e a gestão de consultas odontológicas dos clientes da OdontoPrev. Este chatbot auxilia os usuários no processo de login, pré-registro de consultas e análise preliminar de imagens odontológicas para identificar possíveis problemas dentários, como cáries e fraturas.
