@@ -17,7 +17,14 @@ O **OdontoPrev Chatbot** é um assistente virtual desenvolvido com **Streamlit**
 - **Python**: Linguagem de programação principal.
 - **Streamlit**: Framework para a criação da interface web.
 - **OpenAI GPT-4**: Utilizado para processamento de linguagem natural e geração de respostas.
-- **Ferramentas de Processamento de Imagem**: Para análise de imagens odontológicas.
+- **Faiss-cpu**: Ferramenta para construção de bancos de dados vetoriais e similaridade de embeddings.
+- **Langchain**: Conjunto de bibliotecas para gerenciar agentes e fluxos de processamento de linguagem natural.
+- **LangSmith** e **LangGraph**: Extensões de Langchain para gerenciamento de dados e fluxos de chat.
+- **Pydantic**: Framework para validação de dados e gerenciamento de modelos.
+- **ChromaDB**: Banco de dados vetorial para armazenamento e recuperação eficiente de embeddings.
+- **Pandas**: Biblioteca para manipulação e análise de dados.
+- **Huggingface-hub**: Ferramenta para integração com modelos de machine learning.
+- **ConversationBufferMemory**: Memória de conversa para armazenar o histórico de interação com o usuário e melhorar o contexto das respostas.
 
 ## 📦 Instalação
 
@@ -25,6 +32,7 @@ O **OdontoPrev Chatbot** é um assistente virtual desenvolvido com **Streamlit**
 
 - Python 3.7 ou superior
 - Conta na OpenAI para acessar a API GPT-4
+- OPENAI API KEY
 
 ### Passos de Instalação
 
@@ -32,4 +40,5 @@ O **OdontoPrev Chatbot** é um assistente virtual desenvolvido com **Streamlit**
 
    ```bash
    git clone https://github.com/seu-usuario/odontoprev-chatbot.git
-   cd odontoprev-chatbot
+   cd agent_odonto_4
+   Streamlit run chat_odonto.py
