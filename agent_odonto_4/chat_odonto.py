@@ -1,5 +1,5 @@
 import streamlit as st
-from agent_tools_odonto_4 import create_agent_executor, model_res_generator
+from agent_tools_odonto import create_agent_executor, model_res_generator
 from documentos_scripts.valida_documento import validar_tamanho_arquivo, validar_tipo_documento
 from documentos_scripts.carrega_documento import upload_arquivo_com_progresso
 
