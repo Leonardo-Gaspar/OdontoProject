@@ -41,4 +41,7 @@ O **OdontoPrev Chatbot** é um assistente virtual desenvolvido com **Streamlit**
    ```bash
    git clone https://github.com/seu-usuario/odontoprev-chatbot.git
    cd agent_odonto_4
+   python -m venv venv
+   venv\Scripts\activate
    Streamlit run chat_odonto.py
+   
