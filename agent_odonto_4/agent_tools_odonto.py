@@ -11,64 +11,56 @@ from langchain.agents.output_parsers import OpenAIFunctionsAgentOutputParser
 from langchain.prompts import MessagesPlaceholder
 from langchain.schema.runnable import RunnablePassthrough
 import os
-from faiss_scripts.faiss import carregar_faiss
 import time
+import openai
 
-# Definição da classe e ferramenta
-class consulta_tipo_documentacao_args(BaseModel):
-    query: str = Field(description='pergunta do usuario')
-    questao_usuario: str = Field(description='Questão relacionada à faq, lei, decreto, portaria')
+# Classe corrigida como subclasse de BaseModel do Pydantic
+class AnalyzeImageArgs(BaseModel):
+    image_file: bytes = Field(..., description='Arquivo de imagem para análise')
 
-@tool(args_schema=consulta_tipo_documentacao_args)
-def retorna_condicoes(query: str, questao_usuario: str):
-    '''
-    Retorna regras e condições comerciais e contratuais para resposta ao usuário,
-    conforme o tipo de condução informada pelo usuário, restringindo a resposta apenas
-    ao que existe na base vetorizada.
-    '''
-    questao_usuario_lower = questao_usuario.lower()
+@tool(args_schema=AnalyzeImageArgs)
+def analyze_image_for_human(image_file: bytes):
+    """
+    Envia uma imagem para a API da OpenAI para verificar se há uma pessoa presente.
+    """
+    openai.api_key = os.getenv("OPENAI_API_KEY")
     
-    if 'lei' in questao_usuario_lower:
-        collection_name = 'lei'
-    elif 'decreto' in questao_usuario_lower:
-        collection_name = 'decreto'
-    elif 'portaria' in questao_usuario_lower:
-        collection_name = 'portaria'
-    elif os.path.exists(f'faiss_container/faiss_index_user_{questao_usuario}.pkl'):
-        collection_name = f'faiss_container/faiss_index_user_{questao_usuario}'
-    else:
-        collection_name = 'faq'
+    try:
+        response = openai.Image.create(
+            file=image_file,
+            model="gpt-4-turbo",
+            purpose="image_analysis",
+            prompt="A imagem contém uma pessoa?"
+        )
+        result_text = response["choices"][0]["text"].strip()
 
-    vectordb = carregar_faiss(collection_name)
+        if "sim" in result_text.lower():
+            return "A imagem contém uma pessoa."
+        elif "não" in result_text.lower():
+            return "A imagem não contém uma pessoa."
+        else:
+            return "Não foi possível determinar se a imagem contém uma pessoa."
+    
+    except Exception as e:
+        return f"Erro ao analisar a imagem: {e}"
 
-    results = vectordb.similarity_search(query.lower(), k=10)
-    return results
-
-# Função para criar o agente executor
 def create_agent_executor():
     load_dotenv()
     
-    chat = ChatOpenAI(model="gpt-4",
-                      temperature=0.5,
-                      api_key=os.getenv("OPENAI_API_KEY"))
+    chat = ChatOpenAI(model="gpt-4", temperature=0.5, api_key=os.getenv("OPENAI_API_KEY"))
     
-    memory = ConversationBufferMemory(
-        return_messages=True,
-        memory_key='chat_history'
-    )
-    
-    tools = [retorna_condicoes] 
+    memory = ConversationBufferMemory(return_messages=True, memory_key='chat_history')
+
+    tools = [analyze_image_for_human]
     tools_json = [convert_to_openai_function(tool) for tool in tools]
-    
+
     with open('prompts/system_prompt.txt', 'r') as file:
         system_prompt = " ".join(line.rstrip() for line in file)
     
-    prompt = ChatPromptTemplate.from_messages([
-        ('system', system_prompt),
-        MessagesPlaceholder(variable_name='chat_history'),
-        ('user', '{input}'),
-        MessagesPlaceholder(variable_name='agent_scratchpad')
-    ])
+    prompt = ChatPromptTemplate.from_messages([('system', system_prompt),
+                                              MessagesPlaceholder(variable_name='chat_history'),
+                                              ('user', '{input}'),
+                                              MessagesPlaceholder(variable_name='agent_scratchpad')])
     
     pass_through = RunnablePassthrough.assign(
         agent_scratchpad=lambda x: format_to_openai_function_messages(x['intermediate_steps'])
@@ -85,7 +77,6 @@ def create_agent_executor():
     
     return agent_executor
 
-# Função geradora de respostas com indicador de carregamento
 def model_res_generator(entrada: str):
     try:
         print("Gerando resposta, por favor aguarde...")
